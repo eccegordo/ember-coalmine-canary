@@ -1,0 +1,13 @@
+<h2 id='title'>Welcome to Ember.js</h2>
+
+Things in Session: {{session.things.length}}
+<br>
+{{#link-to (query-params salutation="Guten tag" person="Edward") tagName="button"}}
+  Load Modal
+{{/link-to}}
+
+<button {{action 'addThing'}}>Add a Thing</button>
+
+{{outlet}}
+{{liquid-modal}}
+

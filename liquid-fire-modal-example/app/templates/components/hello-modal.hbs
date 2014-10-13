@@ -1,0 +1,10 @@
+<div>{{salutation}} {{person}}!</div>
+
+Things in Session:
+
+<ul>
+{{#each thing in session.things}}
+  <li>{{thing.name}}</li>
+{{/each}}
+</ul>
+<button {{action "gotIt"}}>Close</button>
