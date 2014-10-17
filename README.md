@@ -25,24 +25,3 @@ Minimal example to test liquid fire modal behavior
 
 A dummy example to stress test ember cli and try to reproduce `FSEventStreamStart` errors in Node and Ember CLI
 Note that there is not much going on this app other than a lot of resources.
-
-```
-apple    -> apples
-book     -> books
-chair    -> chairs
-picture  -> pictures
-page     -> pages
-key      -> keys
-computer -> computers
-```
-Used custom blueprint generator to generate these  resources
-
-ember g custom-crud-resource apple
-ember g custom-crud-resource book
-ember g custom-crud-resource chair
-ember g custom-crud-resource picture
-ember g custom-crud-resource page
-ember g custom-crud-resource key
-ember g custom-crud-resource computer
-
-Note that the router.js was created manually

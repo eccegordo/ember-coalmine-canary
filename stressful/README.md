@@ -1,5 +1,31 @@
 # Stressful
 
+A dummy example to stress test ember cli and try to reproduce `FSEventStreamStart` errors in Node and Ember CLI
+Note that there is not much going on this app at the moment other than a lot of resources. Will try to throw the kitchen sink in over time.
+
+```
+apple    -> apples
+book     -> books
+chair    -> chairs
+picture  -> pictures
+page     -> pages
+key      -> keys
+computer -> computers
+```
+Used custom blueprint generator to generate these  resources
+
+```
+ember g custom-crud-resource apple
+ember g custom-crud-resource book
+ember g custom-crud-resource chair
+ember g custom-crud-resource picture
+ember g custom-crud-resource page
+ember g custom-crud-resource key
+ember g custom-crud-resource computer
+```
+Note that the router.js was created manually
+
+
 This README outlines the details of collaborating on this Ember application.
 
 A short introduction of this app could easily go here.
