@@ -1,0 +1,8 @@
+<h3>{{#link-to 'apples.new'}}Create New Apple{{/link-to}}</h3>
+
+<ul class='items'>
+{{#each item in model}}
+  <li>{{#link-to 'apples.show' item}}{{item.name}}{{/link-to}}</li>
+{{/each}}
+<ul>
+{{outlet}}

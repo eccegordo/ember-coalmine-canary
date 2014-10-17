@@ -7,7 +7,7 @@ export default Ember.Route.extend({
   },
 
   model: function() {
-    var collection = ['apples', 'books', 'chairs', 'pictures', 'pages', 'keys', 'computers'];
+    var collection = this.store.find('chair');
     return collection;
   },
 

@@ -35,3 +35,14 @@ page     -> pages
 key      -> keys
 computer -> computers
 ```
+Used custom blueprint generator to generate these  resources
+
+ember g custom-crud-resource apple
+ember g custom-crud-resource book
+ember g custom-crud-resource chair
+ember g custom-crud-resource picture
+ember g custom-crud-resource page
+ember g custom-crud-resource key
+ember g custom-crud-resource computer
+
+Note that the router.js was created manually

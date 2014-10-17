@@ -1,14 +1,13 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-
   beforeModel: function() {
     // window.console.log("beforeModel: %s | this = %o", this.routeName, this);
   },
 
-  model: function() {
-    var collection = ['apples', 'books', 'chairs', 'pictures', 'pages', 'keys', 'computers'];
-    return collection;
+  model: function(params) {
+    var item = this.store.find('apple', params.apple_id);
+    return item;
   },
 
   afterModel: function() {
@@ -16,8 +15,7 @@ export default Ember.Route.extend({
   },
 
   setupController: function(controller, model) {
-    // window.console.log("setupController: records %d | collection = %o", model.get('length'), model);
+    // window.console.log("setupController: id %s | model = %o", model.get('id'), model);
     this.controller.set('model', model);
   }
-
 });
