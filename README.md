@@ -10,3 +10,17 @@ The goal is to create examples that pass in one version of Ember but fail when u
 The sub projects here are very minimimalist that show the specific issue in context.
 
 I use this project to try out ideas and test the waters before upgrading ember in my regular projects.
+
+## List of projects
+
+#### inventory
+
+Very minimal example to test ember and ember data 10 update
+
+#### liquid-fire-modal-example
+
+Minimal example to test liquid fire modal behavior
+
+#### stressful
+
+A dummy example to stress test ember cli and try to reproduce `FSEventStreamStart` errors in Node and Ember CLI
