@@ -24,3 +24,14 @@ Minimal example to test liquid fire modal behavior
 #### stressful
 
 A dummy example to stress test ember cli and try to reproduce `FSEventStreamStart` errors in Node and Ember CLI
+Note that there is not much going on this app other than a lot of resources.
+
+```
+apple    -> apples
+book     -> books
+chair    -> chairs
+picture  -> pictures
+page     -> pages
+key      -> keys
+computer -> computers
+```

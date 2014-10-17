@@ -1,3 +1,17 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<div class="container">
+
+<h1 id='title'>Welcome to Ember.js Stress Test</h2>
+
+This is a dummy nonsense app to stress test ember and ember cli. Don't read to much into the implementation. All this app is trying to do is through a bunch of junk into ember and see what happens.
+
+
+<ul class="list-group">
+  {{#each item in model}}
+    <li class="list-group-item">{{#link-to item}} View {{item}} {{/link-to}}</li>
+  {{/each}}
+</ul>
 
 {{outlet}}
+
+
+</div>

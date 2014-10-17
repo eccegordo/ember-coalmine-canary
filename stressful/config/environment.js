@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'stressful',
+    podModulePrefix: 'stressful/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
