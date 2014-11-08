@@ -25,3 +25,9 @@ Minimal example to test liquid fire modal behavior
 
 A dummy example to stress test ember cli and try to reproduce `FSEventStreamStart` errors in Node and Ember CLI
 Note that there is not much going on this app other than a lot of resources.
+
+#### view-select-error
+
+If an Ember select "view" is not properly declared it raises an error.
+`Assertion Failed: Unable to find view at path 'select'`
+
